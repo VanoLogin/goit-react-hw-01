@@ -1,0 +1,44 @@
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+.name {
+  font-weight: 600;
+}
+.container {
+  width: 350px;
+  background-color: antiquewhite;
+  border: 2px solid #f5deb3;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.userContainer {
+  padding: 20px 20px;
+
+  display: block;
+  margin-bottom: 10px;
+}
+.userContainer > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+.userList {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: #f3f6f9;
+  border-radius: 0 0 5px 5px;
+  padding: 10px;
+}
+.userItem {
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px #d8e0ea;
+  width: 100px;
+
+  flex-wrap: wrap;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 5px;
+}
